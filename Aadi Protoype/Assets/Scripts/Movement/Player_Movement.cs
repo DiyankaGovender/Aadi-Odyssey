@@ -1,6 +1,10 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEditor.Timeline;
+using UnityEngine.Playables;
 
 public class Player_Movement : MonoBehaviour
 {
@@ -12,10 +16,28 @@ public class Player_Movement : MonoBehaviour
 
     private bool playerCanMove;
 
+
+    public Animator player_Animator; 
+
+    public PlayableDirector Tutorial_PlayableDirector;
+    public GameObject Tutorial_PlayableDirectorGO;
+
+
+    public Animator UI_Animator;
+
+
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
-        EnableMovement();
+        DisableMovement();
+        //EnableMovement();
+      
+        player_Animator.Play("player_CutsceneToTutorial");
+
+        Tutorial_PlayableDirectorGO.SetActive(false);
+
+        UI_Animator.Play("UI_FullscreenToFilmbar");
+      
     }
 
     public void FixedUpdate()
@@ -33,7 +55,9 @@ public class Player_Movement : MonoBehaviour
             {
                 FlipPlayer();
             }
+            
         }
+       
     }
 
     void FlipPlayer()
@@ -54,6 +78,25 @@ public class Player_Movement : MonoBehaviour
     {
         player_rigidBody.isKinematic = true;
         playerCanMove = false;
+    }
+
+
+    //TRIGGER STUFF
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Tutorial_Trigger")
+        {
+            Debug.Log("Yee");
+            UI_Animator.Play("UI_FilmbarToDialogue");
+            player_Animator.enabled = false;
+            Tutorial_PlayableDirectorGO.SetActive(true);
+        }
+
+        if (collision.gameObject.tag == "Red_Trigger")
+        {
+            Debug.Log("Yee2");
+        }
     }
 }
 
