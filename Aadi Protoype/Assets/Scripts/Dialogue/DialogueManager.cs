@@ -25,22 +25,20 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
-        //_gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        //_animator = GetComponent<Animator>();
-        //StartDialogue(_startDialogue);
+      
     }
 
     //Loads up a dialogue instance
     public void StartDialogue(Dialogue dialogue)
     {
-        //_gameManager.Pause();
+   
         _dialogueUI.SetActive(true);
 
         _currentDialogue = dialogue;
         _onSentence = 0;
         _dialogueDisplay.text = _currentDialogue.sentences[_onSentence].sentence;
 
-        //_animator.SetTrigger("PopUp");
+       
         SetFace(_currentDialogue.sentences[_onSentence].faceSprite);
     }
 
@@ -68,12 +66,12 @@ public class DialogueManager : MonoBehaviour
     //Closes current dialogue and hides uneeded UI & text
     public void EndDialogue()
     {
-        //_gameManager.UnPause();
+        
 
         _currentDialogue = null;
-        //_dialogueUI.SetActive(false);
+      
         _dialogueDisplay.text = "";
-        //_animator.SetTrigger("PopDown");
+      
 
         _playableDirector.Play();
     }

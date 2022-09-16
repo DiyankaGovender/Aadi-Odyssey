@@ -22,6 +22,8 @@ public class Player_Movement : MonoBehaviour
     public PlayableDirector Tutorial_PlayableDirector;
     public GameObject Tutorial_PlayableDirectorGO;
 
+    public PlayableDirector red_PlayableDirector;
+    public GameObject red_PlayableDirectorGO;   
 
     public Animator UI_Animator;
 
@@ -30,13 +32,13 @@ public class Player_Movement : MonoBehaviour
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
         DisableMovement();
-        //EnableMovement();
-      
+   
         player_Animator.Play("player_CutsceneToTutorial");
-
-        Tutorial_PlayableDirectorGO.SetActive(false);
-
         UI_Animator.Play("UI_FullscreenToFilmbar");
+        
+        Tutorial_PlayableDirectorGO.SetActive(false);
+        red_PlayableDirectorGO.SetActive(false);
+      
       
     }
 
@@ -81,10 +83,11 @@ public class Player_Movement : MonoBehaviour
     }
 
 
-    //TRIGGER STUFF
-
+    //TRIGGER TIMELINES
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
             Debug.Log("Yee");
@@ -93,9 +96,15 @@ public class Player_Movement : MonoBehaviour
             Tutorial_PlayableDirectorGO.SetActive(true);
         }
 
+
+        //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")
         {
             Debug.Log("Yee2");
+            UI_Animator.Play("UI_FilmbarToDialogue");
+         
+            red_PlayableDirectorGO.SetActive(true);
+          
         }
     }
 }
