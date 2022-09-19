@@ -19,11 +19,11 @@ public class Player_Movement : MonoBehaviour
 
     public Animator player_Animator; 
 
-    public PlayableDirector Tutorial_PlayableDirector;
-    public GameObject Tutorial_PlayableDirectorGO;
+    public PlayableDirector playableDirector;
+  
 
-    public PlayableDirector red_PlayableDirector;
-    public GameObject red_PlayableDirectorGO;   
+    public PlayableAsset tutorialTimeline;
+    public PlayableAsset redTimeline;
 
     public Animator UI_Animator;
 
@@ -36,8 +36,7 @@ public class Player_Movement : MonoBehaviour
         player_Animator.Play("player_CutsceneToTutorial");
         UI_Animator.Play("UI_FullscreenToFilmbar");
         
-        Tutorial_PlayableDirectorGO.SetActive(false);
-        red_PlayableDirectorGO.SetActive(false);
+   
       
       
     }
@@ -90,21 +89,15 @@ public class Player_Movement : MonoBehaviour
         //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
-            Debug.Log("Yee");
-            UI_Animator.Play("UI_FilmbarToDialogue");
-            player_Animator.enabled = false;
-            Tutorial_PlayableDirectorGO.SetActive(true);
+            playableDirector.Play(tutorialTimeline);
         }
 
 
         //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")
         {
-            Debug.Log("Yee2");
-            UI_Animator.Play("UI_FilmbarToDialogue");
-         
-            red_PlayableDirectorGO.SetActive(true);
-          
+            playableDirector.Play(redTimeline);
+            print("oof");
         }
     }
 }

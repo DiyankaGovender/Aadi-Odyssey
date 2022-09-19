@@ -16911,7 +16911,7 @@ GameObject:
   - component: {fileID: 652492909}
   - component: {fileID: 652492908}
   m_Layer: 0
-  m_Name: Tutorial_Timeline
+  m_Name: Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16934,6 +16934,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: f4649ec616bc1c34fa96830aaf6859d2, type: 2}
     - {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
     - {fileID: 11400000, guid: 9f8c24f5e49e92a40abdbbc9e7938595, type: 2}
+    - {fileID: 11400000, guid: 839b4b82fb0763b48b52563d9de07bfc, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -17001,6 +17002,32 @@ MonoBehaviour:
             m_StringArgument: UI_DialogueToFilmbar
             m_BoolArgument: 0
           m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1192713190}
+          m_TargetAssemblyTypeName: Player_Movement, Assembly-CSharp
+          m_MethodName: DisableMovement
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2027143828}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: StartDialogue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: d0e11ee3fbb8e5a4cbd937220f48278c, type: 2}
+            m_ObjectArgumentAssemblyTypeName: Dialogue, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!320 &652492909
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -17010,8 +17037,8 @@ PlayableDirector:
   m_GameObject: {fileID: 652492907}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: d76530bf94b98804a954c0e9093a9d9b, type: 2}
-  m_InitialState: 1
+  m_PlayableAsset: {fileID: 11400000, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
+  m_InitialState: 0
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -17022,6 +17049,10 @@ PlayableDirector:
     value: {fileID: 355271756}
   - key: {fileID: 822201438869404873, guid: d76530bf94b98804a954c0e9093a9d9b, type: 2}
     value: {fileID: 791843203}
+  - key: {fileID: 1752131289778986389, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6857014001317571684, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &652492910
@@ -20269,7 +20300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is where the dialogue will go in the game
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 217af78d37502f244b1a9eac24ef9ddb, type: 2}
   m_sharedMaterial: {fileID: 2019653569283509398, guid: 217af78d37502f244b1a9eac24ef9ddb, type: 2}
@@ -20296,7 +20327,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -21037,7 +21068,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791843198}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cb9ecc32cffe92643a160e47298ddb7b, type: 2}
   m_CullingMode: 0
@@ -26332,7 +26363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &894497370
 Transform:
   m_ObjectHideFlags: 0
@@ -28824,7 +28855,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913553031}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -42873,10 +42904,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement_speed: 50
   player_Animator: {fileID: 1192713192}
-  Tutorial_PlayableDirector: {fileID: 652492909}
-  Tutorial_PlayableDirectorGO: {fileID: 652492907}
-  red_PlayableDirector: {fileID: 894497372}
-  red_PlayableDirectorGO: {fileID: 894497369}
+  playableDirector: {fileID: 652492909}
+  tutorialTimeline: {fileID: 11400000, guid: d76530bf94b98804a954c0e9093a9d9b, type: 2}
+  redTimeline: {fileID: 11400000, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
   UI_Animator: {fileID: 791843203}
 --- !u!50 &1192713191
 Rigidbody2D:

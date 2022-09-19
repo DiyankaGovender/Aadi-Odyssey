@@ -40,6 +40,8 @@ public class DialogueManager : MonoBehaviour
 
        
         SetFace(_currentDialogue.sentences[_onSentence].faceSprite);
+
+        Debug.Log("Dialogue Has started");
     }
 
 
