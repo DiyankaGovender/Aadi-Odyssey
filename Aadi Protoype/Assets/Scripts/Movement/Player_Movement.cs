@@ -25,20 +25,16 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset tutorialTimeline;
     public PlayableAsset redTimeline;
 
-    public Animator UI_Animator;
-
 
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
+        //DisableMovement();
         DisableMovement();
-   
-        player_Animator.Play("player_CutsceneToTutorial");
-        UI_Animator.Play("UI_FullscreenToFilmbar");
-        
-   
-      
-      
+
+
+        //player_Animator.Play("player_CutsceneToTutorial");
+        //UI_Animator.Play("UI_FullscreenToFilmbar");
     }
 
     public void FixedUpdate()
@@ -71,14 +67,16 @@ public class Player_Movement : MonoBehaviour
 
     public void EnableMovement()
     {
-        player_rigidBody.isKinematic = false;
         playerCanMove = true;
+        player_rigidBody.isKinematic = false;
+        player_Animator.enabled = false;
     }
 
     public void DisableMovement()
     {
-        player_rigidBody.isKinematic = true;
         playerCanMove = false;
+        player_rigidBody.isKinematic = true;
+        player_rigidBody.velocity = Vector2.zero;
     }
 
 
@@ -97,7 +95,6 @@ public class Player_Movement : MonoBehaviour
         if (collision.gameObject.tag == "Red_Trigger")
         {
             playableDirector.Play(redTimeline);
-            print("oof");
         }
     }
 }

@@ -9593,7 +9593,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 669a64dacc04cc549bae774b718042a6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12971,7 +12971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -246, y: 3.124927, z: -10}
+  m_LocalPosition: {x: -368.4361, y: 3.124927, z: -10}
   m_LocalScale: {x: 8.502465, y: 8.502465, z: 8.502465}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17037,7 +17037,7 @@ PlayableDirector:
   m_GameObject: {fileID: 652492907}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
+  m_PlayableAsset: {fileID: 0}
   m_InitialState: 0
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
@@ -17047,8 +17047,6 @@ PlayableDirector:
     value: {fileID: 1956401891}
   - key: {fileID: -7540570499457205106, guid: d76530bf94b98804a954c0e9093a9d9b, type: 2}
     value: {fileID: 355271756}
-  - key: {fileID: 822201438869404873, guid: d76530bf94b98804a954c0e9093a9d9b, type: 2}
-    value: {fileID: 791843203}
   - key: {fileID: 1752131289778986389, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
     value: {fileID: 0}
   - key: {fileID: 6857014001317571684, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
@@ -21068,7 +21066,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791843198}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cb9ecc32cffe92643a160e47298ddb7b, type: 2}
   m_CullingMode: 0
@@ -42883,7 +42881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192713186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -257, y: 1.513728, z: 0}
+  m_LocalPosition: {x: -379.4361, y: 1.513728, z: 0}
   m_LocalScale: {x: 3.2753553, y: 3.2753553, z: 3.2753553}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42907,7 +42905,6 @@ MonoBehaviour:
   playableDirector: {fileID: 652492909}
   tutorialTimeline: {fileID: 11400000, guid: d76530bf94b98804a954c0e9093a9d9b, type: 2}
   redTimeline: {fileID: 11400000, guid: 52f6609f329dfe44dac21ddc8181aa26, type: 2}
-  UI_Animator: {fileID: 791843203}
 --- !u!50 &1192713191
 Rigidbody2D:
   serializedVersion: 4
@@ -76776,7 +76773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912608628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -255, y: 5.124927, z: -10}
+  m_LocalPosition: {x: -377.4361, y: 5.124927, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -77353,7 +77350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1956401892
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -80416,6 +80413,7 @@ MonoBehaviour:
   _startDialogue: {fileID: 11400000, guid: 4a09841b70803da42a10c1ed85761fe6, type: 2}
   _dialogueDisplay: {fileID: 726296087}
   _faceDisplayImage: {fileID: 395926059}
+  UI_Animator: {fileID: 791843203}
 --- !u!4 &2027143829
 Transform:
   m_ObjectHideFlags: 0

@@ -15,6 +15,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI _dialogueDisplay;
     [SerializeField] Image _faceDisplayImage;
 
+    public Animator UI_Animator;
+
     //private Animator _animator;
 
     //private GameManager _gameManager;
@@ -23,15 +25,9 @@ public class DialogueManager : MonoBehaviour
     private int _onSentence;
     private Dialogue _currentDialogue;
 
-    private void Start()
-    {
-      
-    }
-
     //Loads up a dialogue instance
     public void StartDialogue(Dialogue dialogue)
     {
-   
         _dialogueUI.SetActive(true);
 
         _currentDialogue = dialogue;
@@ -42,6 +38,8 @@ public class DialogueManager : MonoBehaviour
         SetFace(_currentDialogue.sentences[_onSentence].faceSprite);
 
         Debug.Log("Dialogue Has started");
+
+        UI_Animator.SetTrigger("StartDialogue");
     }
 
 
@@ -68,14 +66,13 @@ public class DialogueManager : MonoBehaviour
     //Closes current dialogue and hides uneeded UI & text
     public void EndDialogue()
     {
-        
-
         _currentDialogue = null;
       
         _dialogueDisplay.text = "";
-      
+
 
         _playableDirector.Play();
+        UI_Animator.SetTrigger("EndDialogue");
     }
 
     public void SetFace(Sprite s)
