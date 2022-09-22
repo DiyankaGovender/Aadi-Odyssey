@@ -26,6 +26,9 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset redTimeline;
 
 
+    public GameObject tutorialTriggerBC;
+    public GameObject redTriggerBC;
+
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
@@ -87,14 +90,18 @@ public class Player_Movement : MonoBehaviour
         //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
+            tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
             playableDirector.Play(tutorialTimeline);
+           
         }
 
 
         //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")
         {
+            redTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
             playableDirector.Play(redTimeline);
+            
         }
     }
 }
