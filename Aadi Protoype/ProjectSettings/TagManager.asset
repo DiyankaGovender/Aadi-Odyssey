@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Tutorial_Trigger
   - Red_Trigger
+  - Orange_Trigger
+  - Yellow_Trigger
+  - Green_Trigger
+  - Blue_Trigger
+  - Grey_Trigger
   layers:
   - Default
   - TransparentFX

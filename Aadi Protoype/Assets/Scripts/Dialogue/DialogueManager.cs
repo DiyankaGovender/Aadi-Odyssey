@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-using UnityEditor.Timeline;
+//using UnityEditor.Timeline;
 using UnityEngine.Playables;
 
 public class DialogueManager : MonoBehaviour

@@ -1,9 +1,9 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
+//using UnityEditorInternal;
 using UnityEngine;
-using UnityEditor.Timeline;
+//using UnityEditor.Timeline;
 using UnityEngine.Playables;
 
 public class Player_Movement : MonoBehaviour
@@ -24,15 +24,24 @@ public class Player_Movement : MonoBehaviour
 
     public PlayableAsset tutorialTimeline;
     public PlayableAsset redTimeline;
-
+    public PlayableAsset orangeTimeline;
+    public PlayableAsset yellowTimeline;
+    public PlayableAsset greenTimeline;
+    public PlayableAsset blueTimeline;
+    public PlayableAsset greyTimeline;
 
     public GameObject tutorialTriggerBC;
     public GameObject redTriggerBC;
+    public GameObject orangeTriggerBC;
+    public GameObject yellowTriggerBC;
+    public GameObject greenTriggerBC;
+    public GameObject blueTriggerBC;
+    public GameObject greyTriggerBC;
 
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
-        //DisableMovement();
+       
         DisableMovement();
 
 
@@ -90,6 +99,7 @@ public class Player_Movement : MonoBehaviour
         //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
+            Debug.Log("Tutorial");
             tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
             playableDirector.Play(tutorialTimeline);
            
@@ -99,9 +109,57 @@ public class Player_Movement : MonoBehaviour
         //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")
         {
+            Debug.Log("Red");
             redTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
             playableDirector.Play(redTimeline);
-            
+
+        }
+
+
+        //ORANGE SCENE
+        if (collision.gameObject.tag == "Orange_Trigger")
+        {
+            Debug.Log("Orange");
+            orangeTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+            playableDirector.Play(orangeTimeline);
+
+        }
+
+        //YELLOW SCENE
+        if (collision.gameObject.tag == "Yellow_Trigger")
+        {
+            Debug.Log("Yellow");
+            yellowTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+            playableDirector.Play(yellowTimeline);
+
+        }
+
+
+        //GREEN SCENE
+        if (collision.gameObject.tag == "Green_Trigger")
+        {
+            Debug.Log("Green");
+            greenTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+            playableDirector.Play(greenTimeline);
+
+        }
+
+        //BLUE SCENE
+        if (collision.gameObject.tag == "Blue_Trigger")
+        {
+            Debug.Log("Blue");
+            blueTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+            playableDirector.Play(blueTimeline);
+
+        }
+
+        //GREY SCENE
+        if (collision.gameObject.tag == "Grey_Trigger")
+        {
+            Debug.Log("Grey");
+            greyTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+            playableDirector.Play(greyTimeline);
+
         }
     }
 }
