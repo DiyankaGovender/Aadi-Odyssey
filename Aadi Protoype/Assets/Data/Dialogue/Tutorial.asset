@@ -10,24 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae99ec3e17593ef459fa1628f0ccfe6b, type: 3}
-  m_Name: tutorial_Dialogue
+  m_Name: Tutorial
   m_EditorClassIdentifier: 
   sentences:
-  - sentence: 
+  - sentence: "\u2026\r"
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: Gita has a point...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Gita has a point..
+  - sentence: "Did I do the right thing?\r"
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Did I do the right thing?
+  - sentence: "\u2026\r"
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: "Well... \r"
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Well...
+  - sentence: There's nothing more I can do now-
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: "There's nothing more I can do now\u2014"
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 'Except move forward. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 
+  - sentence: Except move forward.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
