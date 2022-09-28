@@ -13,56 +13,81 @@ MonoBehaviour:
   m_Name: redScene_Dialogue
   m_EditorClassIdentifier: 
   sentences:
+  - sentence: 
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: This isn't the first time I've had to leave a home behind.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: 'No. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: No.
+  - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: This has happened before.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Childhood in my little village of Mohani was perfect.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Running through the fields with Ishan... what more could a young boy
-      ask for?
+  - sentence: My days were filled with fun and laughter in our little paradise.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 
+  - sentence: Running through the fields with Arjun...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And even when I wasn't playing, helping ap'pa and am'ma on the fields
-      always made me feel close to them.
+  - sentence: What more could a young boy ask for?
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Everything was so perfect...
+  - sentence: But my best memories were with appa and am'ma.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: But it couldn't stay that that way forever.
+  - sentence: Helping both of them on the fields always made me feel close to them.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our perfect home and perfect family...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: In our little village of Mohani.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Everything was so perfect.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 
+  - sentence: But...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It couldn't stay that way forever.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: They came.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: They said they had to clear the land becaus it was "Her majesty's orders".
+  - sentence: We heard the rumours that the British were clearing out nearby towns...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Ap'pa tried to reason with them. He said it was impossible for us to
-      leave. That we have been here for hundreds of years.
+  - sentence: But we never imagined they would spill blood in our small village.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: '"We will not abandon our home!"'
+  - sentence: They said they had to clear the land under "Her Majesty's orders".
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Appa tried to reason with them.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: He argued that we've been here for hundreds of years.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: That there would be nowwhere else for us to go...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: '"WE WILL NOT ABANDON OUR HOME!"'
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Those were his last words.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: And so...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: We left.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 'We left. '
+  - sentence: Appa.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our home.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our life.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Everything we had ever known.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: There was nothing left for us.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
