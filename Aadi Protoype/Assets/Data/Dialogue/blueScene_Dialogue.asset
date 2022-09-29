@@ -12,4 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae99ec3e17593ef459fa1628f0ccfe6b, type: 3}
   m_Name: blueScene_Dialogue
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - sentence: 
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The journey to the port was long and hard.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It had taken us two weeks to get there on foot.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I was exhausted.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: As were the others who joined us on our journey.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: But all my fatigue washed away when I saw Gita and Aarunya smile...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Aarunya gazed at it with wonder...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: '"What''s that appa! It''s so big!"'
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It was the first time any of us had seen the ocean.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It was vast and deep.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And it filled us with hope we thought we had lost on the road...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: But we were finally here.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: "Calcautta\u2014"
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The city that would take us to a new world.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}

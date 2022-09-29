@@ -12,4 +12,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae99ec3e17593ef459fa1628f0ccfe6b, type: 3}
   m_Name: yellowScene_Dialogue
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - sentence: 
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It took some time...but it truly felt as if Chicacole was my home.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Life in Chicacole grew better as the years went on.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And as the village grew...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: So did our family.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Gita gave birth on a bright summer morning.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: We chose the name Aarunya.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: A name meaning "first rays of the sun."
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It was the perfect name for our first beautiful baby girl.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Born in a time of joy and prosperity.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Aarunya was just like me when I was a child.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Always curious and cheerful.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: She forever wanted to be out on the fields with me, she loved to point
+      out her favourite baby cows.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Her childhood was like mine...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: A childhood filled with fun, laughter and abundance.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The crops were plentiful.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The cows were healthy and stong.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And the river flowed.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our time of joy and prosperity.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It felt as if...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Chicacole had become the paradise I lost as a child.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: We spent our days filled with happiness in our village.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And in our home.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: My perfect home and perfect family...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Everything was so perfect...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: "But\u2014"
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It was just like when I was a child...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: 'It just couldn''t stay that way forever. '
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The river started to dry.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And then with it, the crops started to die.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And the cows soon followed.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Even the mango trees I planted started to wither.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Was I going to have to leave another home behind?
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: "There was no longer the sweet smell of fruit in the air\u2014"
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Only death and uncertainty.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: 
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}

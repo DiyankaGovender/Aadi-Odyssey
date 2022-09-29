@@ -12,4 +12,124 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae99ec3e17593ef459fa1628f0ccfe6b, type: 3}
   m_Name: greenScene_Dialogue
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - sentence: 
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I had no choice but to leave the village.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I took whatever we had left to a city in Andhra Pradesh.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I had to find a way to feed Gita and Aarunya, and support my brother.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Even if it meant selling the last of our cows and grain.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The city was so big and modern, unlike anything I had experienced before.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: 'And as a meager cow hearder froma tiny village, I felt out of place. '
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: 'But I wasn''t the only one. '
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Others from neighbouring villages were suffering the same fate.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The famine had spread all over.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: There was death everywhere.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And the British took whatever grain people had left.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: We all had to take risks and grab any opportunity within our grasps.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: For our familes.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And for ourselves.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: What the recruiter in the city told me felt too good to be true...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The Colony of Natal.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The most beautiful place on earth.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Where there was enough food and water for everyone.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: '"You are a strapping young man perfect for the plantations!'''
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: '"There is free passage to the colony with a sugarcane estate waiting
+      to welcome you and support your needs."'
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: '"And as an added benefit, you can bring your family with you to the
+      colony!"'
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And I would only have yo work there for five years.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: "This was an opportunity\u2014"
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: To save my family from starvation.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And for me become more than a lowly cow herder when we would return
+      to the village.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: But would it be worth the risk?
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I met an older women as I left the city.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: She was there begging for scraps.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Her husband left for the Malaya plantations a year ago.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The letters and money he sent her stopped...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: She didn't know if he had abandoned her or if he was dead.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: She feared she would never find out...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Was it still worth the risk?
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Taking my family to a foreign land on one man's word?
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: It was sugarcane or starvation...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I went back to the village and made my decision.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And I chose Natal.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The promise of a better future.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Gita was heartbroken.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: The look on her mother's face when I told her I was taking her daughter
+      and granddaughter away from the village...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: But my decision was final.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: This was for the best for my family.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And so...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: We left.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our village.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our home.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Our life.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Everything Gita and Aarunya had ever known.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: But there was nothing left for us in the village...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Only dead mango trees.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: But I was hopeful...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: I could smell the sweet scent of sugarcane in the air.
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: 
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}

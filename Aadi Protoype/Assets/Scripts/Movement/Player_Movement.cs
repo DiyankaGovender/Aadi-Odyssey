@@ -41,12 +41,11 @@ public class Player_Movement : MonoBehaviour
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
-       
+
         DisableMovement();
+        //EnableMovement();
 
-
-        //player_Animator.Play("player_CutsceneToTutorial");
-        //UI_Animator.Play("UI_FullscreenToFilmbar");
+        
     }
 
     public void FixedUpdate()
@@ -99,19 +98,20 @@ public class Player_Movement : MonoBehaviour
         //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
-            Debug.Log("Tutorial");
+          
             tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(tutorialTimeline);
-           
+          
+            RunNewTimeline(tutorialTimeline);
         }
 
 
         //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")
         {
-            Debug.Log("Red");
+           
             redTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(redTimeline);
+
+            RunNewTimeline(redTimeline);
 
         }
 
@@ -119,18 +119,20 @@ public class Player_Movement : MonoBehaviour
         //ORANGE SCENE
         if (collision.gameObject.tag == "Orange_Trigger")
         {
-            Debug.Log("Orange");
+            
             orangeTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(orangeTimeline);
+
+            RunNewTimeline(orangeTimeline);
 
         }
 
         //YELLOW SCENE
         if (collision.gameObject.tag == "Yellow_Trigger")
         {
-            Debug.Log("Yellow");
+           
             yellowTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(yellowTimeline);
+
+            RunNewTimeline(yellowTimeline);
 
         }
 
@@ -138,29 +140,39 @@ public class Player_Movement : MonoBehaviour
         //GREEN SCENE
         if (collision.gameObject.tag == "Green_Trigger")
         {
-            Debug.Log("Green");
+            
             greenTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(greenTimeline);
+
+            RunNewTimeline(greenTimeline);
 
         }
 
         //BLUE SCENE
         if (collision.gameObject.tag == "Blue_Trigger")
         {
-            Debug.Log("Blue");
+     
             blueTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(blueTimeline);
+
+            RunNewTimeline(blueTimeline);
 
         }
 
         //GREY SCENE
         if (collision.gameObject.tag == "Grey_Trigger")
         {
-            Debug.Log("Grey");
+        
             greyTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-            playableDirector.Play(greyTimeline);
+
+            RunNewTimeline(greyTimeline);
 
         }
+    }
+
+    public void RunNewTimeline(PlayableAsset playableAsset)
+    {
+        Debug.Log(playableAsset.name);
+        playableDirector.Play(playableAsset);
+        playableDirector.time = 0;
     }
 }
 
