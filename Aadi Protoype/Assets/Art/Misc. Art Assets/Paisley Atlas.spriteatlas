@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Paisley Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+    - {fileID: 2800000, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 759531298, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: 1619369358, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: 77159490, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: -370663348, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: -306763713, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: -1935972743, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: 862743954, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: 72542822, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: -277015946, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: 1734322336, guid: 2d5ca15656464aa4d92dc0ad108d115d, type: 3}
+  - {fileID: 1905833023, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: -646465661, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: 363681657, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: -2086174762, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: 1945935173, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: 1667424569, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: -911251000, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: 794004314, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: -1988456891, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  - {fileID: 968433520, guid: 8d11d84ad393df641a4c13204c761e20, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Transition Art_4
+  - Transition Art_5
+  - Transition Art_6
+  - Transition Art_7
+  - Transition Art_0
+  - Transition Art_1
+  - Transition Art_2
+  - Transition Art_3
+  - Transition Art_8
+  - Transition Art_9
+  - Transition Art_4
+  - Transition Art_5
+  - Transition Art_6
+  - Transition Art_7
+  - Transition Art_0
+  - Transition Art_1
+  - Transition Art_2
+  - Transition Art_3
+  - Transition Art_8
+  - Transition Art_9
+  m_RenderDataMap: {}
+  m_Tag: Paisley Atlas
+  m_IsVariant: 0

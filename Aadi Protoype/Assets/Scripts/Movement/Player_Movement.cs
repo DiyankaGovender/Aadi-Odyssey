@@ -17,7 +17,8 @@ public class Player_Movement : MonoBehaviour
     private bool playerCanMove;
 
 
-    public Animator player_Animator; 
+    public Animator player_Animator;
+    public Animator player_WalkAnimator;
 
     public PlayableDirector playableDirector;
   
@@ -54,6 +55,8 @@ public class Player_Movement : MonoBehaviour
         {
             moveInput = Input.GetAxisRaw("Horizontal");
             player_rigidBody.velocity = new Vector2(moveInput * playerMovement_speed, player_rigidBody.velocity.y);
+
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput)); 
 
             if (playerFacing_right == false && moveInput < 0)
             {
@@ -102,6 +105,7 @@ public class Player_Movement : MonoBehaviour
             tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
           
             RunNewTimeline(tutorialTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput=0));
         }
 
 
@@ -112,6 +116,7 @@ public class Player_Movement : MonoBehaviour
             redTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(redTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
 
         }
 
@@ -123,7 +128,7 @@ public class Player_Movement : MonoBehaviour
             orangeTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(orangeTimeline);
-
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
 
         //YELLOW SCENE
@@ -133,7 +138,7 @@ public class Player_Movement : MonoBehaviour
             yellowTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(yellowTimeline);
-
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
 
 
@@ -144,7 +149,7 @@ public class Player_Movement : MonoBehaviour
             greenTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(greenTimeline);
-
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
 
         //BLUE SCENE
@@ -154,7 +159,7 @@ public class Player_Movement : MonoBehaviour
             blueTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(blueTimeline);
-
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
 
         //GREY SCENE
@@ -164,7 +169,7 @@ public class Player_Movement : MonoBehaviour
             greyTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(greyTimeline);
-
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
     }
 
