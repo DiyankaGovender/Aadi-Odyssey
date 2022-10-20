@@ -8,7 +8,7 @@ public class Cutscene_Timeline : MonoBehaviour
     public PlayableDirector playableDirector;
 
     public PlayableAsset titleScreenTimeline;
-
+    public PlayableAsset quotecutscene1_Timeline;
 
     public GameObject titleScreenCanvas;
 
@@ -34,6 +34,7 @@ public class Cutscene_Timeline : MonoBehaviour
 
     public void disableTitleScreen()
     {
-        titleScreenCanvas.SetActive(false);
+        //titleScreenCanvas.SetActive(false);
+        RunNewCutsceneTimeline(quotecutscene1_Timeline);
     }
 }
