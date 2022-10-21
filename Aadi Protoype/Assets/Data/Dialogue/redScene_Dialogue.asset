@@ -29,13 +29,11 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: My days were filled with fun and laughter in our little paradise.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Running through the fields with Arjun...
+  - sentence: Running through the fields with Arjun...what more could a young boy
+      ask for?
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: What more could a young boy ask for?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: But my best memories were with appa and am'ma.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Helping both of them on the fields always made me feel close to them.
+  - sentence: But my best memories were with appa and am'ma. Helping them on the
+      fields always made me feel close with to them.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Our perfect home and perfect family...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -59,11 +57,10 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Appa tried to reason with them.
+  - sentence: Appa tried to reason with them. He argued that we've been here for
+      hundreds of years.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: He argued that we've been here for hundreds of years.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: That there would be nowwhere else for us to go...
+  - sentence: That there would be nowhere else for us to go...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: '"WE WILL NOT ABANDON OUR HOME!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
