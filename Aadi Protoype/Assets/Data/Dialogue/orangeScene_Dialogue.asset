@@ -21,13 +21,10 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Trying to find a new village.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Wherever Arjuin and I went after am'ma passed, we were looked down
-      on.
+  - sentence: Wherever Arjun and I went after am'ma passed, we were looked down on.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Two poor cattle herders could never be accepted among the upper caste
-      villages.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Wherever we went, we never stayed long.
+  - sentence: Whichever village we went to, we never stayed long. Two poor cattle
+      herders could never be accepted among the upper caste.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'But eventually, Arjun and I found peace in Chicacole. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -38,9 +35,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: We plannned to leave again.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: But...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: I was about to meet someone who would change everything.
+  - sentence: But...I was about to meet someone who would change everything.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: "Someone who turned Chicacole from a passing place\u2014into a home."
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -48,40 +43,37 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: She was like me...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: We first met under the lone mango tree on a hill outside the village.
+  - sentence: The first time we met was under a lone mango tree the hill outside
+      the village.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: I went there to escape the glares of those above me.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: It turns out she went there for the same reasons.
+  - sentence: I went there to escape the glares of those above me. It turns out she
+      was there for the same reasons.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: I will never forget the moment our eyes first met...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 'As the sweet scent of mango filled the air. '
+  - sentence: 'The sweet scent of mango filled the air. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Gita loved to dance.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: However, as a weaver girl she could never learn.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: But her passion caught the eye of a guru's daughter who agreed to teach
-      her Bharatanatyam.
+  - sentence: But her passion caught the eye of a guru's daughter who saw her gift.
+      She agreed to teach the girl Bharatanatyam.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: She didn't want her art to be practised  and experienced by so few.
+  - sentence: She didn't want her art to be practiced  and experienced by so few.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: So every few weeks, they would meet in secret and Gita would learn.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Even after the guru's daughter married and left the village...
+  - sentence: And even after the guru's daughter married and left the village...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Gita continued to dance.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Hidden away under the lond mango tree on the hill...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And outside the gaze of the village.
+  - sentence: We both loved to hide away under the lone mango tree that was outside
+      the gaze of the village.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: We both found refuge there.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And not long after...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: And not long after...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -91,16 +83,14 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: '"A love marriage? They will bring nothing but shame to their families!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: But we continued to ignore their gossip and glares.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: It was not if they truly cared what a low-born cowhearder and weaver
-      girl did.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: But we continued to ignore their gossip and glares.It was not if they
+      truly cared what a low-born cowhearder and weaver girl did.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Our love was stronger than their judgement.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And so I built Gita a house and planted two trees between it...
+  - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: And so, I built Gita a house and planted two trees between it...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: So that the scent of mango would always fill our home.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
