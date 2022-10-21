@@ -24,6 +24,7 @@ public class Player_Movement : MonoBehaviour
   
 
     public PlayableAsset tutorialTimeline;
+    public PlayableAsset nameTimeline;
     public PlayableAsset redTimeline;
     public PlayableAsset orangeTimeline;
     public PlayableAsset yellowTimeline;
@@ -32,6 +33,7 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset greyTimeline;
 
     public GameObject tutorialTriggerBC;
+    public GameObject nameTriggerBC;
     public GameObject redTriggerBC;
     public GameObject orangeTriggerBC;
     public GameObject yellowTriggerBC;
@@ -43,8 +45,8 @@ public class Player_Movement : MonoBehaviour
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
 
-       DisableMovement();
-       //EnableMovement();
+       //DisableMovement();
+       EnableMovement();
 
         
     }
@@ -108,6 +110,15 @@ public class Player_Movement : MonoBehaviour
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput=0));
         }
 
+        //NAME SCENE
+        if (collision.gameObject.tag == "Name_Trigger")
+        {
+
+            nameTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+
+            RunNewTimeline(nameTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
 
         //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")

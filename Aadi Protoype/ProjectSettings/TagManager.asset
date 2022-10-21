@@ -11,6 +11,7 @@ TagManager:
   - Green_Trigger
   - Blue_Trigger
   - Grey_Trigger
+  - Name_Trigger
   layers:
   - Default
   - TransparentFX
