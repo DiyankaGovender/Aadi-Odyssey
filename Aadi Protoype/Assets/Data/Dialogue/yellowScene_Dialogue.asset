@@ -17,7 +17,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: It took some time...but it truly felt as if Chicacole was my home.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Life in Chicacole grew better as the years went on.
+  - sentence: And life grew better as the years went on.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: And as the village grew...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -27,68 +27,61 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: We chose the name Aarunya.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: A name meaning "first rays of the sun."
+  - sentence: A name that means "the first rays of the sun".
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: It was the perfect name for our first beautiful baby girl.
+  - sentence: 'It was the perfect name for our beautiful baby girl who was born in
+      a time of joy and prosperity. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Born in a time of joy and prosperity.
+  - sentence: Aarunya was just like me as a child. She was always so curious and
+      cheerful.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Aarunya was just like me when I was a child.
+  - sentence: She forever wanted to be out on the fields witb her appa and loved
+      to point out her favourite calves.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Always curious and cheerful.
+  - sentence: '"Appa look! Appa look!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: She forever wanted to be out on the fields with me, she loved to point
-      out her favourite baby cows.
+  - sentence: '"Appa look! Appa look!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Her childhood was like mine...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: A childhood filled with fun, laughter and abundance.
+  - sentence: Her childhood was like mine...a childhood filled with laughter, fun
+      and abundance in Chicacole.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: The crops were plentiful.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: The cows were healthy and stong.
+  - sentence: The cows were healthy and strong.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: And the river flowed.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Our time of joy and prosperity.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: 'It was a time of joy and prosperity. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: It felt as if...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Chicacole had become the paradise I lost as a child.
+  - sentence: 'Chicacole had become the paradise I lost as a child. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: We spent our days filled with happiness in our village.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And in our home.
+  - sentence: Our days were fillled with happiness in our village...our lives were
+      so good back then.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: My perfect home and perfect family...
+  - sentence: My perfect home and perfect family.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Everything was so perfect...
+  - sentence: In my abundant village of Chicacole.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: "But\u2014"
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: It was just like when I was a child...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 'It just couldn''t stay that way forever. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
+  - sentence: It just couldn't stay that way forever.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: The river started to dry.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And then with it, the crops started to die.
+  - sentence: And then with it, the crops started to die out too.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: And the cows soon followed.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Even the mango trees I planted started to wither.
+  - sentence: 'Then the cows soon followed. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: Even the mango trees I planted for Gita started to wither as our stomaches
+      grew hungry.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Was I going to have to leave another home behind?
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -97,6 +90,4 @@ MonoBehaviour:
   - sentence: "There was no longer the sweet smell of fruit in the air\u2014"
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Only death and uncertainty.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: 
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}

@@ -12,6 +12,10 @@ TagManager:
   - Blue_Trigger
   - Grey_Trigger
   - Name_Trigger
+  - PostGrey_Trigger
+  - PaisleyStart_Trigger
+  - PaisleyEnd_Trigger
+  - FamilyPotrait_Trigger
   layers:
   - Default
   - TransparentFX

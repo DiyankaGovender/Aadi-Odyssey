@@ -31,6 +31,10 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset greenTimeline;
     public PlayableAsset blueTimeline;
     public PlayableAsset greyTimeline;
+    public PlayableAsset postGreyTimeline;
+    public PlayableAsset startPaisleyTimeline;
+    public PlayableAsset familyPotraitTimeline;
+    public PlayableAsset endPaisleyTimeline;
 
     public GameObject tutorialTriggerBC;
     public GameObject nameTriggerBC;
@@ -40,6 +44,10 @@ public class Player_Movement : MonoBehaviour
     public GameObject greenTriggerBC;
     public GameObject blueTriggerBC;
     public GameObject greyTriggerBC;
+    public GameObject postGreyBC;
+    public GameObject startPaisleysBC;
+    public GameObject familyPotraitsBC;
+    public GameObject endPaisleysBC;
 
     private void Start()
     {
@@ -180,6 +188,51 @@ public class Player_Movement : MonoBehaviour
             greyTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(greyTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
+
+
+        //POST GREY SCENE
+        if (collision.gameObject.tag == "PostGrey_Trigger")
+        {
+
+            postGreyBC.GetComponent<BoxCollider2D>().enabled = false;
+
+            RunNewTimeline(postGreyTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
+
+
+
+        //PAISLEY START SCENE
+        if (collision.gameObject.tag == "PaisleyStart_Trigger")
+        {
+
+            startPaisleysBC.GetComponent<BoxCollider2D>().enabled = false;
+
+            RunNewTimeline(startPaisleyTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
+
+
+        //FAMILY POTRAIT SCENE
+        if (collision.gameObject.tag == "FamilyPotrait_Trigger")
+        {
+
+            familyPotraitsBC.GetComponent<BoxCollider2D>().enabled = false;
+
+            RunNewTimeline(familyPotraitTimeline);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
+
+
+        //PAISLEY END SCENE
+        if (collision.gameObject.tag == "PaisleyEnd_Trigger")
+        {
+
+            endPaisleysBC.GetComponent<BoxCollider2D>().enabled = false;
+
+            RunNewTimeline(endPaisleyTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
     }
