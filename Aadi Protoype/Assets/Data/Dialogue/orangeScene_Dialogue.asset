@@ -43,8 +43,8 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: She was like me...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: The first time we met was under a lone mango tree the hill outside
-      the village.
+  - sentence: The first time we met was under a lone mango tree on top of the hill
+      outside the village.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: I went there to escape the glares of those above me. It turns out she
       was there for the same reasons.
@@ -83,8 +83,8 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: '"A love marriage? They will bring nothing but shame to their families!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: But we continued to ignore their gossip and glares.It was not if they
-      truly cared what a low-born cowhearder and weaver girl did.
+  - sentence: But we continued to ignore their gossip and glares. It was not as if
+      they truly cared what a lowborn cow herder and weaver girl did.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Our love was stronger than their judgement.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
