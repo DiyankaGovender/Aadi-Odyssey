@@ -53,8 +53,12 @@ public class Player_Movement : MonoBehaviour
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
 
-       DisableMovement();
-       //EnableMovement();
+
+        //ENABLE THIS LINE IN THE FINAL BUILD
+       //DisableMovement();
+       
+        //ENABLE THIS LINE DURING TESTING
+        EnableMovement();
 
         
     }

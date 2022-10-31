@@ -23,12 +23,12 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Wherever Arjun and I went after am'ma passed, we were looked down on.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Whichever village we went to, we never stayed long. Two poor cattle
-      herders could never be accepted among the upper caste.
+  - sentence: Whichever village we went to, we never stayed long. Two poor cow herders
+      could never be accepted among the upper caste.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'But eventually, Arjun and I found peace in Chicacole. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: People still gossiped about the two poor cattle herders from the low-born
+  - sentence: People still gossiped about the two poor cow herders from the low-born
       village of Moohani.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'But we didn''t care...Chicacole was enough. '

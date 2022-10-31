@@ -45,7 +45,7 @@ MonoBehaviour:
   - sentence: The recruiters locked us away in a compound, hidden away from the outside
       world.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: All of us cramped into such a tiny space. TThere were so many people...so
+  - sentence: All of us cramped into such a tiny space. There were so many people...so
       many people locked away.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'And they all had their own stories. '
@@ -55,20 +55,20 @@ MonoBehaviour:
   - sentence: Aarunya became friends with a girl who just turned twelve and was escaping
       an arranged marriage.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Gita became close witha heavily pregnant woman who was looking for
+  - sentence: Gita became close with a heavily pregnant woman who was looking for
       a new life for her baby.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'Arjun met an older man whose children died from the famine and needed
       an escape from his ghosts. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: And I found kinship with another lower caste man who was looking for
-      fortune in the new lands.
+      fortune in the colony.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: "So many stories\u2014in such a small space. "
+  - sentence: 'So many stories in such a small space. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Was this the start of ours?
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: I had to keep Gita and Aarunya's spirits up. But as the days grew into
+  - sentence: I had to keep Gita and Aarunya's spirits up. But as the days became
       weeks it grew harder to feel hopeful in that cramped compound...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'And that hope shrank when they forced Arjun away. '
@@ -110,6 +110,8 @@ MonoBehaviour:
   - sentence: But Gods...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Had I known what lay waiting for us on that ship...
+    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+  - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: I would have lost all hope.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}

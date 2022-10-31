@@ -35,15 +35,14 @@ MonoBehaviour:
   - sentence: Aarunya was just like me as a child. She was always so curious and
       cheerful.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: She forever wanted to be out on the fields witb her appa and loved
-      to point out her favourite calves.
+  - sentence: She forever wanted to be out on the fields witb her appa.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: '"Appa look! Appa look!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: '"Appa look! Appa look!"'
+  - sentence: '"That one is my favourite!!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Her childhood was like mine...a childhood filled with laughter, fun
-      and abundance in Chicacole.
+      and abundance.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: The crops were plentiful.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -57,7 +56,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: 'Chicacole had become the paradise I lost as a child. '
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Our days were fillled with happiness in our village...our lives were
+  - sentence: Our days were fillled with happiness in our village. Our lives were
       so good back then.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
@@ -87,7 +86,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: "There was no longer the sweet smell of fruit in the air\u2014"
+  - sentence: There was no longer the sweet smell of fruit in the air.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Only death and uncertainty.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
