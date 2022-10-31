@@ -20312,8 +20312,6 @@ PlayableDirector:
     value: {fileID: 1848385932}
   - key: {fileID: 485583582746738448, guid: 1982ce5cb4f0e494f98944ad3c6fe625, type: 2}
     value: {fileID: 1192713186}
-  - key: {fileID: 1877552095727013785, guid: 1982ce5cb4f0e494f98944ad3c6fe625, type: 2}
-    value: {fileID: 1192713192}
   m_ExposedReferences:
     m_References:
     - 59e8ca7191479fb438bfc08124026e7d: {fileID: 1498677665}
@@ -26678,7 +26676,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1124073471
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -27273,7 +27271,7 @@ Camera:
   far clip plane: 1000
   field of view: 10.547792
   orthographic: 1
-  orthographic size: 19.5
+  orthographic size: 22.57
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -29371,7 +29369,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 50331647
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -106265,7 +106263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912608628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.144532, y: 3.6111996, z: -9.999998}
+  m_LocalPosition: {x: -309.30002, y: 3.8390796, z: -9.999998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
