@@ -15,9 +15,9 @@ MonoBehaviour:
   sentences:
   - sentence: 
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: I believe that all of it...
+  - sentence: I am going to believe that all of it...
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: All of the smiles, laughter, trials and tears...
+  - sentence: All of the smiles, laughter, trials and tears.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: Have led me here.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}

@@ -36,6 +36,9 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset familyPotraitTimeline;
     public PlayableAsset endPaisleyTimeline;
 
+    public PlayableAsset cutscene2;
+    public PlayableDirector cutscenePD;
+
     public GameObject tutorialTriggerBC;
     public GameObject nameTriggerBC;
     public GameObject redTriggerBC;
@@ -48,6 +51,8 @@ public class Player_Movement : MonoBehaviour
     public GameObject startPaisleysBC;
     public GameObject familyPotraitsBC;
     public GameObject endPaisleysBC;
+
+    public GameObject cutscene2BC;
 
     private void Start()
     {
@@ -239,6 +244,15 @@ public class Player_Movement : MonoBehaviour
             RunNewTimeline(endPaisleyTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
         }
+
+        //CUTSCENE 2
+        if (collision.gameObject.name == "TESTINGONLY_cutscene2_Starter")
+        {
+            cutscene2BC.GetComponent<BoxCollider2D>().enabled = false;
+
+            RunNewCUTSCENETimeline(cutscene2);
+            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
     }
 
     public void RunNewTimeline(PlayableAsset playableAsset)
@@ -246,6 +260,14 @@ public class Player_Movement : MonoBehaviour
         Debug.Log(playableAsset.name);
         playableDirector.Play(playableAsset);
         playableDirector.time = 0;
+    }
+
+
+    public void RunNewCUTSCENETimeline(PlayableAsset playableAsset)
+    {
+        Debug.Log(playableAsset.name);
+        cutscenePD.Play(playableAsset);
+        cutscenePD.time = 0;
     }
 }
 

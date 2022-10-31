@@ -16,6 +16,7 @@ TagManager:
   - PaisleyStart_Trigger
   - PaisleyEnd_Trigger
   - FamilyPotrait_Trigger
+  - Cutscene2
   layers:
   - Default
   - TransparentFX
