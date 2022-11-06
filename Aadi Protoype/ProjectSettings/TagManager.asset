@@ -17,6 +17,12 @@ TagManager:
   - PaisleyEnd_Trigger
   - FamilyPotrait_Trigger
   - Cutscene2
+  - RedMid_Trigger
+  - OrangeMid_Trigger
+  - YellowMid_Trigger
+  - GreenMid_Trigger
+  - BlueMid_Trigger
+  - GreyMid_Trigger
   layers:
   - Default
   - TransparentFX

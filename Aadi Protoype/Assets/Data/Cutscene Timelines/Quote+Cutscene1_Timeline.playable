@@ -4208,12 +4208,12 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: 3206366482796348418}
-  - {fileID: -8582183997745002717}
-  - {fileID: -7297049836485448867}
-  - {fileID: 5761195904333705001}
   - {fileID: 1737017836588303467}
   - {fileID: 8936777119390441653}
   - {fileID: -3496262881879446910}
+  - {fileID: -8582183997745002717}
+  - {fileID: -7297049836485448867}
+  - {fileID: 5761195904333705001}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -7665,4 +7665,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da2ef99e1144c740b9d011afd6e8c6d, type: 3}
   m_Name: Subtitle_Clip
   m_EditorClassIdentifier: 
-  subtitle_text: It was like he didn'y care at all.
+  subtitle_text: It was like he didn't care at all.

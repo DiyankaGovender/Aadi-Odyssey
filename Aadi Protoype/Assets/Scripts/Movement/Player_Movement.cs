@@ -23,6 +23,7 @@ public class Player_Movement : MonoBehaviour
     public PlayableDirector playableDirector;
   
 
+    //PANEL TIMELINE
     public PlayableAsset tutorialTimeline;
     public PlayableAsset nameTimeline;
     public PlayableAsset redTimeline;
@@ -39,6 +40,8 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset cutscene2;
     public PlayableDirector cutscenePD;
 
+
+    //CUE DIALOGUE 
     public GameObject tutorialTriggerBC;
     public GameObject nameTriggerBC;
     public GameObject redTriggerBC;
@@ -54,13 +57,29 @@ public class Player_Movement : MonoBehaviour
 
     public GameObject cutscene2BC;
 
+    //PANEL ANIMATORS
+    public Animator redPanel;
+    public Animator orangePanel;
+    public Animator yellowPanel;
+    public Animator greenPanel;
+    public Animator bluePanel;
+    public Animator greyPanel;
+
+    //PANEL BOX COLLIDERS IN THE MIDDLE
+    public GameObject redMidBC;
+    public GameObject orangeMidBC;
+    public GameObject yellowMidBC;
+    public GameObject greenMidBC;
+    public GameObject blueMidBC;
+    public GameObject greyMidBC;
+
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
 
 
         //ENABLE THIS LINE IN THE FINAL BUILD
-       //DisableMovement();
+        //DisableMovement();
        
         //ENABLE THIS LINE DURING TESTING
         EnableMovement();
@@ -252,6 +271,44 @@ public class Player_Movement : MonoBehaviour
 
             RunNewCUTSCENETimeline(cutscene2);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+        }
+
+
+
+        //RED MID PANEL
+        if (collision.gameObject.tag == "RedMid_Trigger")
+        {
+            redPanel.Play("RedPanel_FadeOut");
+        }
+
+        //ORANGE MID PANEL
+        if (collision.gameObject.tag == "OrangeMid_Trigger")
+        {
+            orangePanel.Play("OrangePanel_FadeOut");
+        }
+
+        //YELLOW MID PANEL
+        if (collision.gameObject.tag == "YellowMid_Trigger")
+        {
+            yellowPanel.Play("YellowPanel_FadeOut");
+        }
+
+        //GREEN MID PANEL
+        if (collision.gameObject.tag == "GreenMid_Trigger")
+        {
+            greenPanel.Play("GreenPanel_FadeOut");
+        }
+
+        //BLUE MID PANEL
+        if (collision.gameObject.tag == "BlueMid_Trigger")
+        {
+            bluePanel.Play("BluePanel_FadeOut");
+        }
+
+        //GREY MID PANEL
+        if (collision.gameObject.tag == "GreyMid_Trigger")
+        {
+            redPanel.Play("GreyPanel_FadeOut");
         }
     }
 
