@@ -23,7 +23,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: So did our family.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: Gita gave birth on a bright summer morning.
+  - sentence: Gita gave birth on a bright and warm summer morning.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: We chose the name Aarunya.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
@@ -35,7 +35,7 @@ MonoBehaviour:
   - sentence: Aarunya was just like me as a child. She was always so curious and
       cheerful.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: She forever wanted to be out on the fields witb her appa.
+  - sentence: She forever wanted to be out on the fields with her appa.
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
   - sentence: '"Appa look! Appa look!"'
     faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
