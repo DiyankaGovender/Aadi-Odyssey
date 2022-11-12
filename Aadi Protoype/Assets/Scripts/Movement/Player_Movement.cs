@@ -278,6 +278,7 @@ public class Player_Movement : MonoBehaviour
         //RED MID PANEL
         if (collision.gameObject.tag == "RedMid_Trigger")
         {
+            Debug.Log("shbhsdhdsf");
             redPanel.Play("RedPanel_FadeOut");
         }
 
