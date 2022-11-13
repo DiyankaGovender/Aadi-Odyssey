@@ -79,10 +79,10 @@ public class Player_Movement : MonoBehaviour
 
 
         //ENABLE THIS LINE IN THE FINAL BUILD
-        //DisableMovement();
+        DisableMovement();
        
         //ENABLE THIS LINE DURING TESTING
-        EnableMovement();
+        //EnableMovement();
 
         
     }
