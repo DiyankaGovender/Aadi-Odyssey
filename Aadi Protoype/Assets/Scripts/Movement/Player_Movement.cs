@@ -144,6 +144,7 @@ public class Player_Movement : MonoBehaviour
           
             RunNewTimeline(tutorialTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput=0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
         //NAME SCENE
@@ -154,6 +155,8 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(nameTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
+
         }
 
         //RED SCENE
@@ -164,6 +167,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(redTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
 
         }
 
@@ -176,6 +180,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(orangeTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
         //YELLOW SCENE
@@ -186,6 +191,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(yellowTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
 
@@ -197,6 +203,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(greenTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
         //BLUE SCENE
@@ -207,6 +214,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(blueTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
         //GREY SCENE
@@ -217,6 +225,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(greyTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
 
@@ -228,6 +237,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(postGreyTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
 
@@ -240,6 +250,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(startPaisleyTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
 
@@ -251,6 +262,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(familyPotraitTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
 
@@ -262,6 +274,7 @@ public class Player_Movement : MonoBehaviour
 
             RunNewTimeline(endPaisleyTimeline);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
         //CUTSCENE 2
@@ -307,9 +320,10 @@ public class Player_Movement : MonoBehaviour
         }
 
         //GREY MID PANEL
-        if (collision.gameObject.tag == "GreyMid_Trigger")
+        if (collision.gameObject.name == "GreyMid_Trigger")
         {
-            redPanel.Play("GreyPanel_FadeOut");
+            greyPanel.Play("GreyPanel_FadeOut");
+            Debug.Log("sshshs");
         }
     }
 
