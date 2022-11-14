@@ -14,106 +14,106 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: The journey to the port was long and hard.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: It had taken us nearly three weeks for us to get there on foot.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: I was exhausted. As were the others who joined us on our journey.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 40da3e155e16f69449b9c285db3d9ad7, type: 3}
   - sentence: But all of my fatigue washed away when I saw Gita and Aarunya smile
       for the first time since the start of our journey.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 5fa9a422ae6c33d4db1a4b971bc25975, type: 3}
   - sentence: Aarunya gazed at it with wonder...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: '"What''s that appa? Its so big!"'
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: 'It was the first time any of us had seen the ocean. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: It was so vast and deep.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: And it filled us with the hope we had thought we lost on the road...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: But we were finally here.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 5fa9a422ae6c33d4db1a4b971bc25975, type: 3}
   - sentence: 'Calcutta. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: The city that would take us to a new world.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: But my heart started to sink the closer we drew to the ocean.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 241ec9c8eed61fa449cb041ba36097be, type: 3}
   - sentence: The recruiters locked us away in a compound, hidden away from the outside
       world.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 4d74ce7effe703e4da8db7b1ee5e30fb, type: 3}
   - sentence: All of us cramped into such a tiny space. There were so many people...so
       many people locked away.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 7aee64a44b389bc4eb68ef9c851d0c31, type: 3}
   - sentence: 'And they all had their own stories. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 241ec9c8eed61fa449cb041ba36097be, type: 3}
   - sentence: Their own reasons for leaving their homes behind...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: Aarunya became friends with a girl who just turned twelve and was escaping
       an arranged marriage.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: Gita became close with a heavily pregnant woman who was looking for
       a new life for her baby.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: 'Arjun met an older man whose children died from the famine and needed
       an escape from his ghosts. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: And I found kinship with another lower caste man who was looking for
       fortune in the colony.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: 'So many stories in such a small space. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 07a08e249e6496b48bd79dd559245199, type: 3}
   - sentence: Was this the start of ours?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: I had to keep Gita and Aarunya's spirits up. But as the days became
       weeks it grew harder to feel hopeful in that cramped compound...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: 'And that hope shrank when they forced Arjun away. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: The famine and the journey left him weak so he was deemed unfit for
       the colonies.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 84337c486e4dd8c4c9f5a699305fb3c1, type: 3}
   - sentence: "I begged and pleaded with the officers\u2014Arjun couldn't make the
       journey back to Chicacole by himself!"
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 6ed24b35144a0164f9a9a3558fb648e5, type: 3}
   - sentence: 'But it was no use. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 4fef25b5378bd9a43b8238f923f709e8, type: 3}
   - sentence: They didn't care what a coolie had to say.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 6ed24b35144a0164f9a9a3558fb648e5, type: 3}
   - sentence: 'My older brother...all alone. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: Would he get back to the village?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: Would I ever get to see him again?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: 'Would I ever get to see India again? '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: Those were my last thoughts as we boarded the ship.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: The Belvedere.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: This ship that would take us to a new world.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: A new home?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: A new start?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 62d558922ade20844b6e992aac97d7d8, type: 3}
   - sentence: A better life?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 834d396cc093aeb47be01afb6b2f88e3, type: 3}
   - sentence: I couldn't say.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: But Gods...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: Had I known what lay waiting for us on that ship...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: I would have lost all hope.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}

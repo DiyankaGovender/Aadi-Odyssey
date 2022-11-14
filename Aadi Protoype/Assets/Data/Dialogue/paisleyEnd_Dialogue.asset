@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 4a7570549e9f6114ea7643ecd1ed3630, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3c68a3f2c30c8b041ac25582afa0341e, type: 3}
   - sentence: This is my life.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3c68a3f2c30c8b041ac25582afa0341e, type: 3}
   - sentence: This is my choice.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 2fff1b8631467fe4687b2ba93c66ddab, type: 3}
   - sentence: 'This is my Odyssey. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 4a7570549e9f6114ea7643ecd1ed3630, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: And the only thing I can do now...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: 'Is to keep moving forward. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: e1836d1ad37f8444782b085092e7af5f, type: 3}
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: e3cf0d343ea387c428dffbebf2c7e4cc, type: 3}

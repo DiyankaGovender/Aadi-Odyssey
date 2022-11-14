@@ -14,85 +14,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: It was hard at first.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 241ec9c8eed61fa449cb041ba36097be, type: 3}
   - sentence: Trying to find a new village.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 07a08e249e6496b48bd79dd559245199, type: 3}
   - sentence: Wherever Arjun and I went after am'ma passed, we were looked down on.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 84337c486e4dd8c4c9f5a699305fb3c1, type: 3}
   - sentence: Whichever village we went to, we never stayed long. Two poor cow herders
       could never be accepted among the upper caste.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 4d74ce7effe703e4da8db7b1ee5e30fb, type: 3}
   - sentence: 'But eventually, Arjun and I found peace in Chicacole. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: People still gossiped about the two poor cow herders from the low-born
       village of Moohani.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b9d4f3a2ce2d5914f9c51c3a7b43e69d, type: 3}
   - sentence: 'But we didn''t care...Chicacole was enough. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: We plannned to leave again.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: But...I was about to meet someone who would change everything.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: "Someone who turned Chicacole from a passing place\u2014into a home."
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: Gita.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: She was like me...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 2f491918e5ced6e46ad904be9fc2e693, type: 3}
   - sentence: The first time we met was under a lone mango tree on top of the hill
       outside the village.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: I went there to escape the glares of those above me. It turns out she
       was there for the same reasons.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: ae007e8b51901f24791b555e971bf936, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: I will never forget the moment our eyes first met...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: 'The sweet scent of mango filled the air. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: Gita loved to dance.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: However, as a weaver girl she could never learn.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 241ec9c8eed61fa449cb041ba36097be, type: 3}
   - sentence: But her passion caught the eye of a guru's daughter who saw her gift.
       She agreed to teach the girl Bharatanatyam.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: She didn't want her art to be practiced  and experienced by so few.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: So every few weeks, they would meet in secret and Gita would learn.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 2f491918e5ced6e46ad904be9fc2e693, type: 3}
   - sentence: And even after the guru's daughter married and left the village...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: ae007e8b51901f24791b555e971bf936, type: 3}
   - sentence: Gita continued to dance.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: We both loved to hide away under the lone mango tree that was outside
       the gaze of the village.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: We both found refuge there.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: And not long after...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: In each other.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: Everyone in Chicacole disapproved.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: '"A love marriage? They will bring nothing but shame to their families!"'
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b9d4f3a2ce2d5914f9c51c3a7b43e69d, type: 3}
   - sentence: But we continued to ignore their gossip and glares. It was not as if
       they truly cared what a lowborn cow herder and weaver girl did.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: Our love was stronger than their judgement.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: And so, I built Gita a house and planted two trees between it...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 5fa9a422ae6c33d4db1a4b971bc25975, type: 3}
   - sentence: So that the scent of mango would always fill our home.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}

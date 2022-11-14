@@ -14,81 +14,82 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: It took some time...but it truly felt as if Chicacole was my home.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 47a7236d65b5c2e4782293b968676d15, type: 3}
   - sentence: And life grew better as the years went on.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: And as the village grew...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: So did our family.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: Gita gave birth on a bright and warm summer morning.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: We chose the name Aarunya.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: A name that means "the first rays of the sun".
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: 'It was the perfect name for our beautiful baby girl who was born in
       a time of joy and prosperity. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: Aarunya was just like me as a child. She was always so curious and
       cheerful.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
-  - sentence: She forever wanted to be out on the fields with her appa.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
+  - sentence: She forever wanted to be out on the fields with her appa and loved
+      to point out her favourite cows.
+    faceSprite: {fileID: 21300000, guid: 47a7236d65b5c2e4782293b968676d15, type: 3}
   - sentence: '"Appa look! Appa look!"'
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: '"That one is my favourite!!"'
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: Her childhood was like mine...a childhood filled with laughter, fun
       and abundance.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: The crops were plentiful.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 5fa9a422ae6c33d4db1a4b971bc25975, type: 3}
   - sentence: The cows were healthy and strong.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 47a7236d65b5c2e4782293b968676d15, type: 3}
   - sentence: And the river flowed.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: 'It was a time of joy and prosperity. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: It felt as if...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 47a7236d65b5c2e4782293b968676d15, type: 3}
   - sentence: 'Chicacole had become the paradise I lost as a child. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: Our days were fillled with happiness in our village. Our lives were
       so good back then.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: cc52980fd24fa504c83c4e77e024ab29, type: 3}
   - sentence: My perfect home and perfect family.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: In my abundant village of Chicacole.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: "But\u2014"
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: It was just like when I was a child...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
   - sentence: It just couldn't stay that way forever.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: The river started to dry.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 84337c486e4dd8c4c9f5a699305fb3c1, type: 3}
   - sentence: And then with it, the crops started to die out too.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 4d74ce7effe703e4da8db7b1ee5e30fb, type: 3}
   - sentence: 'Then the cows soon followed. '
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: b9d4f3a2ce2d5914f9c51c3a7b43e69d, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: Even the mango trees I planted for Gita started to wither as our stomaches
       grew hungry.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 84337c486e4dd8c4c9f5a699305fb3c1, type: 3}
   - sentence: Was I going to have to leave another home behind?
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 241ec9c8eed61fa449cb041ba36097be, type: 3}
   - sentence: ...
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: There was no longer the sweet smell of fruit in the air.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: Only death and uncertainty.
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: 84337c486e4dd8c4c9f5a699305fb3c1, type: 3}
   - sentence: 
-    faceSprite: {fileID: 21300000, guid: a76788899d6f5ee4f95321a643916086, type: 3}
+    faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
