@@ -52,7 +52,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: They come back crying.
     faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
-  - sentence: How do I explain it all to Aarunya?
+  - sentence: How do I explain it all to Aahana?
     faceSprite: {fileID: 21300000, guid: 40da3e155e16f69449b9c285db3d9ad7, type: 3}
   - sentence: 'The deaths. The suicides. '
     faceSprite: {fileID: 21300000, guid: 834d396cc093aeb47be01afb6b2f88e3, type: 3}

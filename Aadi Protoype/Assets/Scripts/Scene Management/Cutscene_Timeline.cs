@@ -10,6 +10,10 @@ public class Cutscene_Timeline : MonoBehaviour
     public PlayableAsset titleScreenTimeline;
     public PlayableAsset quotecutscene1_Timeline;
 
+
+    public PlayableAsset creditsFadeIn_Timeline;
+    public PlayableAsset creditsFadeOut_Timeline;   
+
     public GameObject titleScreenCanvas;
 
     void Start()
@@ -37,4 +41,17 @@ public class Cutscene_Timeline : MonoBehaviour
         //titleScreenCanvas.SetActive(false);
         RunNewCutsceneTimeline(quotecutscene1_Timeline);
     }
+
+
+    public void creditsEntryTimeline()
+    {
+        RunNewCutsceneTimeline(creditsFadeIn_Timeline);
+    }
+
+
+    public void creditsExitTimeline()
+    {
+        RunNewCutsceneTimeline(creditsFadeOut_Timeline);
+    }
+
 }
