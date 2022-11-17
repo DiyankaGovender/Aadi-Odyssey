@@ -20,7 +20,7 @@ public class Audio_FadeOut : MonoBehaviour
     {
         if (collision.gameObject.tag == "Cutscene1_AudioFadeOut")
         {
-            Debug.Log("AUDIO MUTHAFUCKAS");
+          
             StartCoroutine(AudioControllerRainAudio.FadeOut(rainAudioSource, fadeTime));
             StartCoroutine(AudioControllerStormAudio.FadeOut(stormAudioSource, fadeTime));
         }

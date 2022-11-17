@@ -8,36 +8,43 @@ public class Audio_FadeIn : MonoBehaviour
     public AudioClip musicAudioclip;
     private bool isPlayed;
 
-    public float fadeTime;
-
-
+   
+    public GameObject musicSourceGO;
+    
+    public void Start()
+    {
+        musicSourceGO.SetActive(false); 
+    }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag =="Red_Trigger")
+        if (collision.gameObject.tag == "Red_Trigger")
         {
-            
-            StartCoroutine(AudioControllerMusicAudio.FadeIn(musicAudioSource, fadeTime));
-  
+            musicSourceGO.SetActive(true);
+            StartCoroutine(StartFade(musicAudioSource, 30f , 0.035f));
+
         }
     }
 
 
-    public static class AudioControllerMusicAudio
-    {
-        public static IEnumerator FadeIn(AudioSource audioSource, float FadeTime)
+  
+        public IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
         {
-            //audioSource.Play();
-            float startVolume = audioSource.volume;
-            if (audioSource.volume == 0)
+            float currentTime = 0;
+            float start = audioSource.volume;
+            while (currentTime < duration)
             {
-                audioSource.volume += startVolume * Time.deltaTime / FadeTime;
+                currentTime += Time.deltaTime;
+                audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
                 yield return null;
             }
-           
+            yield break;
         }
-    }
 
+
+    
+
+  
 
 
 

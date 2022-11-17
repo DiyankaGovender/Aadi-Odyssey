@@ -124,7 +124,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: Our life.
     faceSprite: {fileID: 21300000, guid: 834d396cc093aeb47be01afb6b2f88e3, type: 3}
-  - sentence: 'Everything Aarhana and Gita had ever known, taking whatever little
+  - sentence: 'Everything Aahana and Gita had ever known, taking whatever little
       we had left with us. '
     faceSprite: {fileID: 21300000, guid: 40da3e155e16f69449b9c285db3d9ad7, type: 3}
   - sentence: But there was nothing left for us in Chicacole...
