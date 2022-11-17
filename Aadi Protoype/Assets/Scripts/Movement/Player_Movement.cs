@@ -73,6 +73,8 @@ public class Player_Movement : MonoBehaviour
     public GameObject blueMidBC;
     public GameObject greyMidBC;
 
+
+    public GameObject timelineManagerGO;
     private void Start()
     {
         player_rigidBody = GetComponent<Rigidbody2D>();
@@ -129,6 +131,16 @@ public class Player_Movement : MonoBehaviour
         playerCanMove = false;
         player_rigidBody.isKinematic = true;
         player_rigidBody.velocity = Vector2.zero;
+    }
+
+    public void enableAnimator()
+    {
+        player_Animator.enabled = true;
+        playerCanMove = false;
+        player_rigidBody.isKinematic = true;
+        player_rigidBody.velocity = Vector2.zero;
+
+
     }
 
 
@@ -269,7 +281,7 @@ public class Player_Movement : MonoBehaviour
         //PAISLEY END SCENE
         if (collision.gameObject.tag == "PaisleyEnd_Trigger")
         {
-
+            timelineManagerGO.SetActive(true);
             endPaisleysBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(endPaisleyTimeline);
