@@ -24,6 +24,7 @@ TagManager:
   - BlueMid_Trigger
   - GreyMid_Trigger
   - Cutscene1_AudioFadeOut
+  - Cutscene2_Trigger
   layers:
   - Default
   - TransparentFX

@@ -36,6 +36,8 @@ public class Player_Movement : MonoBehaviour
     public PlayableAsset startPaisleyTimeline;
     public PlayableAsset familyPotraitTimeline;
     public PlayableAsset endPaisleyTimeline;
+    
+
 
     public PlayableAsset cutscene2;
     public PlayableDirector cutscenePD;
@@ -143,6 +145,8 @@ public class Player_Movement : MonoBehaviour
 
     }
 
+
+    
 
     //TRIGGER TIMELINES
     private void OnTriggerEnter2D(Collider2D collision)
@@ -290,12 +294,16 @@ public class Player_Movement : MonoBehaviour
         }
 
         //CUTSCENE 2
-        if (collision.gameObject.name == "TESTINGONLY_cutscene2_Starter")
+        if (collision.gameObject.name == "Cutscene2_Trigger")
         {
+           
+            RunNewTimeline(cutscene2);
+
+
             cutscene2BC.GetComponent<BoxCollider2D>().enabled = false;
 
-            RunNewCUTSCENETimeline(cutscene2);
             player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput = 0));
+            player_Animator.Play("Player_WalkCycle_Idle");
         }
 
 
