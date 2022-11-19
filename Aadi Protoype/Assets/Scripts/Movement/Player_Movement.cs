@@ -155,7 +155,7 @@ public class Player_Movement : MonoBehaviour
         //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
-          
+            DisableMovement();
             tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
           
             RunNewTimeline(tutorialTimeline);
@@ -166,7 +166,7 @@ public class Player_Movement : MonoBehaviour
         //NAME SCENE
         if (collision.gameObject.tag == "Name_Trigger")
         {
-
+            DisableMovement();
             nameTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(nameTimeline);
@@ -178,7 +178,7 @@ public class Player_Movement : MonoBehaviour
         //RED SCENE
         if (collision.gameObject.tag == "Red_Trigger")
         {
-           
+            DisableMovement();
             redTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(redTimeline);
@@ -191,7 +191,7 @@ public class Player_Movement : MonoBehaviour
         //ORANGE SCENE
         if (collision.gameObject.tag == "Orange_Trigger")
         {
-            
+            DisableMovement();
             orangeTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(orangeTimeline);
@@ -202,7 +202,7 @@ public class Player_Movement : MonoBehaviour
         //YELLOW SCENE
         if (collision.gameObject.tag == "Yellow_Trigger")
         {
-           
+            DisableMovement();
             yellowTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(yellowTimeline);
@@ -214,7 +214,7 @@ public class Player_Movement : MonoBehaviour
         //GREEN SCENE
         if (collision.gameObject.tag == "Green_Trigger")
         {
-            
+            DisableMovement();
             greenTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(greenTimeline);
@@ -225,7 +225,7 @@ public class Player_Movement : MonoBehaviour
         //BLUE SCENE
         if (collision.gameObject.tag == "Blue_Trigger")
         {
-     
+            DisableMovement();
             blueTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(blueTimeline);
@@ -236,7 +236,7 @@ public class Player_Movement : MonoBehaviour
         //GREY SCENE
         if (collision.gameObject.tag == "Grey_Trigger")
         {
-        
+            DisableMovement();
             greyTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(greyTimeline);
@@ -248,7 +248,7 @@ public class Player_Movement : MonoBehaviour
         //POST GREY SCENE
         if (collision.gameObject.tag == "PostGrey_Trigger")
         {
-
+            DisableMovement();
             postGreyBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(postGreyTimeline);
@@ -261,7 +261,7 @@ public class Player_Movement : MonoBehaviour
         //PAISLEY START SCENE
         if (collision.gameObject.tag == "PaisleyStart_Trigger")
         {
-
+            DisableMovement();
             startPaisleysBC.GetComponent<BoxCollider2D>().enabled = false;
 
             RunNewTimeline(startPaisleyTimeline);
@@ -273,6 +273,7 @@ public class Player_Movement : MonoBehaviour
         //FAMILY POTRAIT SCENE
         if (collision.gameObject.tag == "FamilyPotrait_Trigger")
         {
+            DisableMovement();
 
             familyPotraitsBC.GetComponent<BoxCollider2D>().enabled = false;
 
@@ -285,6 +286,7 @@ public class Player_Movement : MonoBehaviour
         //PAISLEY END SCENE
         if (collision.gameObject.tag == "PaisleyEnd_Trigger")
         {
+            DisableMovement();
             timelineManagerGO.SetActive(true);
             endPaisleysBC.GetComponent<BoxCollider2D>().enabled = false;
 
@@ -296,7 +298,7 @@ public class Player_Movement : MonoBehaviour
         //CUTSCENE 2
         if (collision.gameObject.name == "Cutscene2_Trigger")
         {
-           
+            DisableMovement();
             RunNewTimeline(cutscene2);
 
 

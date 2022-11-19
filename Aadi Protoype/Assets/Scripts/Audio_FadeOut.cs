@@ -32,8 +32,17 @@ public class Audio_FadeOut : MonoBehaviour
         {
 
             StartCoroutine(AudioControllerMusicAudio.FadeOut(musicAudioSource, musicFadeTime));
-            Debug.Log("YEGHEYUEH");
+  
       
+        }
+
+
+        if (collision.gameObject.tag == "Cutscene2_Trigger")
+        {
+
+            StartCoroutine(AudioControllerMusicAudio.FadeOut(musicAudioSource, musicFadeTime));
+            Debug.Log("YEGHEYUEH");
+
         }
     }
 
