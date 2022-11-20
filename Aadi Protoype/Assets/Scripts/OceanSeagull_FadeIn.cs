@@ -11,8 +11,9 @@ public class OceanSeagull_FadeIn : MonoBehaviour
     public AudioClip oceanAudioclip;
 
     public GameObject seagullGO;
-    public GameObject oceanGO;  
+    public GameObject oceanGO;
 
+    public float targetVolume = 0.5f;
     void Start()
     {
        
@@ -23,8 +24,8 @@ public class OceanSeagull_FadeIn : MonoBehaviour
     {
         seagullGO.SetActive(true);
         oceanGO.SetActive(true);
-        StartCoroutine(StartFade(seagullAudioSource, 2f, 0.2f));
-        StartCoroutine(StartFade(oceanAudioSource, 2f, 0.2f));
+        StartCoroutine(StartFade(seagullAudioSource, 2f,targetVolume));
+        StartCoroutine(StartFade(oceanAudioSource, 2f, targetVolume));
     }
 
     public IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)

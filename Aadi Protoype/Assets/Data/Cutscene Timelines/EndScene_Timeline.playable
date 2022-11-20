@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: 1391f38d3e8265c44b82240457c77b72, type: 2}
+  m_Clip: {fileID: 7400000, guid: 34d60f3b60c24e943a9f046884be2068, type: 2}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: e9a06f7c956ee3d4fa80f19affa8deae, type: 2}
+  m_Clip: {fileID: 7400000, guid: c206b8f8e094a3b43bf0af0e3dd9fee1, type: 2}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -2905,7 +2905,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -7683303150749494233}
-    m_Duration: 5
+    m_Duration: 8
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4141279638932473089}
     m_EaseInDuration: 0
@@ -2967,9 +2967,9 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 5.5
+    m_PostExtrapolationTime: 2.5
     m_PreExtrapolationTime: 0
-    m_DisplayName: EndSceneFadeIn
+    m_DisplayName: EndScene_FirstFadeIn_Vignette
   - m_Version: 1
     m_Start: 10.5
     m_ClipIn: 0
@@ -7026,7 +7026,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -8755230483993868081}
-    m_Duration: 5
+    m_Duration: 8
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3679510725976973201}
     m_EaseInDuration: 0
@@ -7088,9 +7088,9 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 5.5
+    m_PostExtrapolationTime: 2.5
     m_PreExtrapolationTime: 0
-    m_DisplayName: EndSceneFadeIn_Vignette
+    m_DisplayName: EndScene_FirstFadeIn
   - m_Version: 1
     m_Start: 10.5
     m_ClipIn: 0
@@ -9228,7 +9228,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 111.5
+    m_Start: 113.46666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -1089578631460668966}
     m_Duration: 2
@@ -9293,8 +9293,8 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 5
-    m_PreExtrapolationTime: 111.5
+    m_PostExtrapolationTime: 3.0333333333333314
+    m_PreExtrapolationTime: 113.46666666666667
     m_DisplayName: Part9Text_FadeIn
   - m_Version: 1
     m_Start: 118.5
