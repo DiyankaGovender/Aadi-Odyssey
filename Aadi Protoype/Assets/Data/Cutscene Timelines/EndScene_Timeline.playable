@@ -25,7 +25,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 3964908109673506656}
-    m_Duration: 10
+    m_Duration: 10.407667193561792
     m_TimeScale: 1
     m_ParentTrack: {fileID: -9025919225745796161}
     m_EaseInDuration: 0
@@ -2967,11 +2967,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 2.5
+    m_PostExtrapolationTime: 2.9333333333333336
     m_PreExtrapolationTime: 0
     m_DisplayName: EndScene_FirstFadeIn_Vignette
   - m_Version: 1
-    m_Start: 10.5
+    m_Start: 10.933333333333334
     m_ClipIn: 0
     m_Asset: {fileID: -7891138128915536755}
     m_Duration: 5
@@ -3036,7 +3036,7 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 6.066666666666666
+    m_PostExtrapolationTime: 5.633333333333333
     m_PreExtrapolationTime: 0
     m_DisplayName: EndSceneFadeIn
   - m_Version: 1
@@ -4151,7 +4151,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 121.5
+    m_Start: 128.03333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 9130415504024207559}
     m_Duration: 5.016666666666666
@@ -4720,7 +4720,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 10.5
+    m_Start: 10.933333333333334
     m_ClipIn: 0
     m_Asset: {fileID: -6573851409259918205}
     m_Duration: 10
@@ -7088,11 +7088,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 2.5
+    m_PostExtrapolationTime: 2.9333333333333336
     m_PreExtrapolationTime: 0
     m_DisplayName: EndScene_FirstFadeIn
   - m_Version: 1
-    m_Start: 10.5
+    m_Start: 10.933333333333334
     m_ClipIn: 0
     m_Asset: {fileID: -3579906004457205849}
     m_Duration: 5
@@ -7157,7 +7157,7 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 6.066666666666666
+    m_PostExtrapolationTime: 5.633333333333333
     m_PreExtrapolationTime: 0
     m_DisplayName: EndSceneFadeIn_Vignette
   - m_Version: 1

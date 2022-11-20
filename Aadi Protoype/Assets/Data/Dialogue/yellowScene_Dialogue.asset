@@ -23,14 +23,15 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: So did our family.
     faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
-  - sentence: Gita gave birth on a lovely bright and warm summer morning.
+  - sentence: Gita gave birth on a lovely bright and warm summer morning to a healthy
+      baby girl.
     faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
   - sentence: We chose the name Aahana.
     faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: A name that means "the first rays of the sun".
     faceSprite: {fileID: 21300000, guid: 8d4f2d01e4661d34d91b5302f4e7ad0a, type: 3}
-  - sentence: 'It was the perfect name for our beautiful baby girl who was born in
-      a time of joy and prosperity. '
+  - sentence: 'It was the perfect name for our beautiful little girl who was born
+      in a time of joy and prosperity. '
     faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: Aahana was just like me as a child. She was always so curious and cheerful.
     faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
@@ -39,7 +40,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: 47a7236d65b5c2e4782293b968676d15, type: 3}
   - sentence: '"Appa look! Appa look!"'
     faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
-  - sentence: '"That one is my favourite!!"'
+  - sentence: '"That one is my favourite!"'
     faceSprite: {fileID: 21300000, guid: 550e9a5b83eebe94d9b42b32d404d860, type: 3}
   - sentence: Her childhood was like mine...a childhood filled with laughter, fun
       and abundance.

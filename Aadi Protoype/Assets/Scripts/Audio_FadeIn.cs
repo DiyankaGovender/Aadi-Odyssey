@@ -33,7 +33,7 @@ public class Audio_FadeIn : MonoBehaviour
         {
             Debug.Log("PLS WORK");
             musicSourceGO.SetActive(true);
-            StartCoroutine(StartFade(musicAudioSource, 20f, 0.035f));
+            StartCoroutine(StartFade(musicAudioSource, 15f, 0.035f));
 
         }
     }

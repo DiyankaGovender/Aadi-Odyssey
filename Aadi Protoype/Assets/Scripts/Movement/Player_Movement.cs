@@ -8,6 +8,9 @@ using UnityEngine.Playables;
 
 public class Player_Movement : MonoBehaviour
 {
+    public GameObject playerGO;
+
+
     public float playerMovement_speed;
 
     private float moveInput;
@@ -83,10 +86,10 @@ public class Player_Movement : MonoBehaviour
 
 
         //ENABLE THIS LINE IN THE FINAL BUILD
-        //DisableMovement();
+        DisableMovement();
        
         //ENABLE THIS LINE DURING TESTING
-        EnableMovement();
+        //EnableMovement();
 
         
     }
@@ -298,6 +301,7 @@ public class Player_Movement : MonoBehaviour
         //CUTSCENE 2
         if (collision.gameObject.name == "Cutscene2_Trigger")
         {
+            Debug.Log("x: " + playerGO.transform.position.x);
             DisableMovement();
             RunNewTimeline(cutscene2);
 

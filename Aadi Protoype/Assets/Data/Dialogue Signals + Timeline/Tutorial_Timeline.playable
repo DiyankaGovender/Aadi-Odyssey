@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: f4649ec616bc1c34fa96830aaf6859d2, type: 2}
 --- !u!114 &-7540570499457205106
 MonoBehaviour:
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.6666666666666666
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &-6908695893910615934
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.5
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &-3357731658073985375
 MonoBehaviour:
@@ -351,7 +351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.5833333333333334
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &-723989517404050805
 MonoBehaviour:
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.4166666666666667
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &593253343809666630
 MonoBehaviour:
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.3333333333333333
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &5607706744622513996
 MonoBehaviour:
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.25
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &8430768582034213658
 MonoBehaviour:
@@ -913,7 +913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.16666666666666666
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}
 --- !u!114 &8908085640536824808
 MonoBehaviour:
@@ -929,5 +929,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Time: 0.08333333333333333
   m_Retroactive: 1
-  m_EmitOnce: 0
+  m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 11045ae8a3f417b469a1f3e68283981a, type: 2}

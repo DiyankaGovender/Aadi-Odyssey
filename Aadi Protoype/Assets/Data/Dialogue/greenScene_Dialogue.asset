@@ -51,7 +51,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: c5cf6e2a7531d464ab735bf66c144691, type: 3}
   - sentence: 'And for ourselves. '
     faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
-  - sentence: Whar the recruiter told me sounded too good to be true...
+  - sentence: What the recruiter told me sounded too good to be true...
     faceSprite: {fileID: 21300000, guid: 47a7236d65b5c2e4782293b968676d15, type: 3}
   - sentence: The colony of Natal.
     faceSprite: {fileID: 21300000, guid: 03f0b1f3254be4946ae45dd149545117, type: 3}
