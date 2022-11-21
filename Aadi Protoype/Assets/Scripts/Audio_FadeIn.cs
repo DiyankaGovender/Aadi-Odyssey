@@ -28,12 +28,17 @@ public class Audio_FadeIn : MonoBehaviour
 
         }
 
+        if (collision.gameObject.tag == "BlueMid_Trigger")
+        {
+            musicSourceGO.SetActive(false);
+
+        }
 
         if (collision.gameObject.tag == "FamilyPotrait_Trigger")
         {
             Debug.Log("PLS WORK");
             musicSourceGO.SetActive(true);
-            StartCoroutine(StartFade(musicAudioSource, 15f, 0.035f));
+            StartCoroutine(StartFade(musicAudioSource, 20f, 0.08f));
 
         }
     }
