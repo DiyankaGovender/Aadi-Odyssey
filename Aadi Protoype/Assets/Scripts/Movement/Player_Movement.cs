@@ -80,18 +80,22 @@ public class Player_Movement : MonoBehaviour
 
 
     public GameObject timelineManagerGO;
+
+    public GameObject tutorialcActivator;
+
     private void Start()
     {
+        tutorialcActivator.SetActive(false);
         player_rigidBody = GetComponent<Rigidbody2D>();
 
 
         //ENABLE THIS LINE IN THE FINAL BUILD
         DisableMovement();
-       
+
         //ENABLE THIS LINE DURING TESTING
         //EnableMovement();
+    
 
-        
     }
 
     public void FixedUpdate()
@@ -158,12 +162,7 @@ public class Player_Movement : MonoBehaviour
         //TUTORIAL SCENE
         if (collision.gameObject.tag == "Tutorial_Trigger")
         {
-            DisableMovement();
-            tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
-          
-            RunNewTimeline(tutorialTimeline);
-            player_WalkAnimator.SetFloat("Speed", Mathf.Abs(moveInput=0));
-            player_Animator.Play("Player_WalkCycle_Idle");
+            StartCoroutine("testingTutorialBug");
         }
 
         //NAME SCENE
@@ -366,6 +365,17 @@ public class Player_Movement : MonoBehaviour
         Debug.Log(playableAsset.name);
         cutscenePD.Play(playableAsset);
         cutscenePD.time = 0;
+    }
+
+
+    public IEnumerator testingTutorialBug()
+    {
+        yield return new WaitForSeconds(2f);
+        DisableMovement();
+        tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
+        tutorialcActivator.SetActive(true);
+
+       
     }
 }
 

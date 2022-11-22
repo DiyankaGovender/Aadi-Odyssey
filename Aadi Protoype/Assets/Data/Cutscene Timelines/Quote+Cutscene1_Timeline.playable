@@ -4358,8 +4358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da2ef99e1144c740b9d011afd6e8c6d, type: 3}
   m_Name: Subtitle_Clip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  subtitle_text: What if end up like the others? Those labourers that left to Mauritius
-    last year...
+  subtitle_text: What if we end up like the others? Those labourers that left to
+    Mauritius last year...
 --- !u!114 &-7297049836485448867
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16046,7 +16046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da2ef99e1144c740b9d011afd6e8c6d, type: 3}
   m_Name: Subtitle_Clip
   m_EditorClassIdentifier: 
-  subtitle_text: We're already endured so much.
+  subtitle_text: We've already endured so much.
 --- !u!114 &485583582746738448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17710,7 +17710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da2ef99e1144c740b9d011afd6e8c6d, type: 3}
   m_Name: Subtitle_Clip(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  subtitle_text: I know it's to late for us to turn back now...
+  subtitle_text: I know it's too late for us to turn back now...
 --- !u!114 &1434217687043744853
 MonoBehaviour:
   m_ObjectHideFlags: 1
