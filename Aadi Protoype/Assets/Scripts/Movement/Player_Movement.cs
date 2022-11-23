@@ -370,7 +370,7 @@ public class Player_Movement : MonoBehaviour
 
     public IEnumerator testingTutorialBug()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         DisableMovement();
         tutorialTriggerBC.GetComponent<BoxCollider2D>().enabled = false;
         tutorialcActivator.SetActive(true);
