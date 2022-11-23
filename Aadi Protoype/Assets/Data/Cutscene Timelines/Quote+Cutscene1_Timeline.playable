@@ -11248,25 +11248,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -11344,25 +11326,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -15795,7 +15759,7 @@ MonoBehaviour:
     m_Start: 159.53333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 5386522338399668069}
-    m_Duration: 9.083333333333343
+    m_Duration: 8.733333333333348
     m_TimeScale: 1
     m_ParentTrack: {fileID: 152450316952157656}
     m_EaseInDuration: 0
@@ -20341,8 +20305,8 @@ MonoBehaviour:
   m_Children:
   - {fileID: 60565622760805949}
   - {fileID: -2183485594270871443}
-  - {fileID: 3320210970008916651}
   - {fileID: 152450316952157656}
+  - {fileID: 3320210970008916651}
   - {fileID: 6231280574265858681}
   - {fileID: 8054252092947073472}
   - {fileID: -4183151728537649946}
@@ -20469,7 +20433,7 @@ MonoBehaviour:
     m_Start: 162.76666666666668
     m_ClipIn: 0
     m_Asset: {fileID: 2143879923552096238}
-    m_Duration: 5.849999999999994
+    m_Duration: 5.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6231280574265858681}
     m_EaseInDuration: 0

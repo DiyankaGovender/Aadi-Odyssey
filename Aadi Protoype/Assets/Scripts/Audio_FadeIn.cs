@@ -10,13 +10,16 @@ public class Audio_FadeIn : MonoBehaviour
 
    
     public GameObject musicSourceGO;
-
-
+    
+    
+    public GameObject familyMusicSourceGO;
+    public AudioSource familymuiscaudioSource;
  
     
     public void Start()
     {
         musicSourceGO.SetActive(false); 
+        familyMusicSourceGO.SetActive(false);   
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -30,11 +33,11 @@ public class Audio_FadeIn : MonoBehaviour
 
     
 
-        if (collision.gameObject.tag == "FamilyPotrait_Trigger")
+        if (collision.gameObject.name == "familyPotrait_Trigger")
         {
-            Debug.Log("PLS WORK");
-            musicSourceGO.SetActive(true);
-            StartCoroutine(StartFade(musicAudioSource, 20f, 0.6f));
+            Debug.Log("TRIGGER ACTIVATED");
+            familyMusicSourceGO.SetActive(true);
+            StartCoroutine(StartFade(familymuiscaudioSource, 30f, 0.4f));
 
         }
     }

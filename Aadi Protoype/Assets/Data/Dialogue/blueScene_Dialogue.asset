@@ -52,8 +52,8 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: 241ec9c8eed61fa449cb041ba36097be, type: 3}
   - sentence: Their own reasons for leaving their homes behind...
     faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
-  - sentence: Aahana became friends with a girl who just turned thirteen. She was
-      escaping an arranged marriage.
+  - sentence: Aahana became friends with a girl who just turned twelve. She was escaping
+      an arranged marriage.
     faceSprite: {fileID: 21300000, guid: 66fb18764a610dd479c1eb6c4317f4c7, type: 3}
   - sentence: Gita became close with a heavily pregnant woman who was looking for
       a new life for her baby.

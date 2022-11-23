@@ -16,7 +16,9 @@ public class Audio_FadeOut : MonoBehaviour
 
     public float fadeTime;
     public float musicFadeTime;
-  
+
+    public AudioSource familyMusicAudioSource;
+    public AudioClip familyMusicAudioclip;  
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -40,7 +42,7 @@ public class Audio_FadeOut : MonoBehaviour
         if (collision.gameObject.tag == "Cutscene2_Trigger")
         {
 
-            StartCoroutine(AudioControllerMusicAudio.FadeOut(musicAudioSource, musicFadeTime));
+            StartCoroutine(AudioControllerMusicAudio.FadeOut(familyMusicAudioSource, musicFadeTime));
             Debug.Log("YEGHEYUEH");
 
         }
