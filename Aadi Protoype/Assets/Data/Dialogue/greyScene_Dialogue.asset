@@ -46,7 +46,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: 7aee64a44b389bc4eb68ef9c851d0c31, type: 3}
   - sentence: ...
     faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
-  - sentence: But some of the woman have it worse.
+  - sentence: But some of the women have it worse.
     faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
   - sentence: One of the officers picks a woman to visit his quarter's every few
       nights...
@@ -79,7 +79,7 @@ MonoBehaviour:
     faceSprite: {fileID: 21300000, guid: f4c26f8451b6a2b4491d5249cd150426, type: 3}
   - sentence: She understands everything.
     faceSprite: {fileID: 21300000, guid: b893da1758ab8a54394c28a0050a739e, type: 3}
-  - sentence: The guilt I feel for putting her through all of this...Is darker that
+  - sentence: The guilt I feel for putting her through all of this...is darker than
       the water she stares at.
     faceSprite: {fileID: 21300000, guid: 3ae381d64b46c0341a2bc2938ea9fadc, type: 3}
   - sentence: She keeps looking out at it.
