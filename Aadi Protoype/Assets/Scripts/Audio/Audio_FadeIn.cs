@@ -35,7 +35,6 @@ public class Audio_FadeIn : MonoBehaviour
 
         if (collision.gameObject.name == "familyPotrait_Trigger")
         {
-            Debug.Log("TRIGGER ACTIVATED");
             familyMusicSourceGO.SetActive(true);
             StartCoroutine(StartFade(familymuiscaudioSource, 30f, 0.4f));
 

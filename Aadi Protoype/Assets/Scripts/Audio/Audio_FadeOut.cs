@@ -43,7 +43,7 @@ public class Audio_FadeOut : MonoBehaviour
         {
 
             StartCoroutine(AudioControllerMusicAudio.FadeOut(familyMusicAudioSource, musicFadeTime));
-            Debug.Log("YEGHEYUEH");
+           
 
         }
     }
