@@ -4,4 +4,5 @@ Aadi’s Odyssey is an interactive narrative experience that tells the story of 
 This game was my final project created at Wits Digital Arts to showcase my art, animation, storytelling and programming abilities. I also used ths game to gain a deeper understanding of Unity's lighting, timeline and animation systems.
 For more information about the game and a view of the game's concept art and documentation please cherck out my portfolio page about the project here: https://diyankag.wixsite.com/portfolio/aadi-s-odyssey
 # How to Play 
-The game is avaibale to play on itch.io here: https://diyanka-govender.itch.io/aadis-odyssey
+The game is available to play on itch.io here: https://diyanka-govender.itch.io/aadis-odyssey
+A WebGL version of the game is available to play here: https://diyanka-govender.itch.io/aadis-odyssey
