@@ -5,4 +5,4 @@ This game was my final project created at Wits Digital Arts to showcase my art, 
 For more information about the game and a view of the game's concept art and documentation please cherck out my portfolio page about the project here: https://diyankag.wixsite.com/portfolio/aadi-s-odyssey
 # How to Play 
 The game is available to play on itch.io here: https://diyanka-govender.itch.io/aadis-odyssey
-A WebGL version of the game is available to play here: https://diyanka-govender.itch.io/aadis-odyssey
+
